@@ -3,7 +3,8 @@ $(function() {
   FastClick.attach(document.body);
 
   function fullscreen(element) {
-    // $(element.target).toggleClass('fullscreen');
+    $(element.target).toggleClass('fullscreen');
+    /*
     var elem = element.currentTarget;
     if (elem.webkitRequestFullscreen) {
       elem.webkitRequestFullscreen();
@@ -16,7 +17,7 @@ $(function() {
     } else {
       $(element.target).toggleClass('fullscreen');
     }
-
+    */
   }
 
   $('.card').click(fullscreen)
