@@ -42,9 +42,11 @@ body {
   font-size: 4em;
 }
 
-.card:hover {
+/*
+.card:active {
   box-shadow: 0 0 8px rgba(0,0,0,.18), 0 8px 16px rgba(0,0,0,.36);
 }
+*/
 
 .card.fullscreen {
   z-index: 99;
