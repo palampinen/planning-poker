@@ -7,6 +7,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   background: #f4f4f4;
   position: relative;
+  overflow: hidden;
 }
 
 .card {
@@ -18,7 +19,7 @@ body {
   border-radius: 3px;
   align-items: center;
   justify-content: center;
-  font-size: 2.5em;
+  font-size: 3em;
   background: #FFF;
   color: #46289A;
   font-weight: 300;
@@ -91,6 +92,22 @@ body {
 }
 */
 
+@media (min-width: 1024px) {
+  .deck {
+    max-width: 1020px;
+    margin: 0 auto;
+  }
+
+  .card {
+    margin: 1.1vh 10px;
+    height: 31vh;
+    width: 235px;
+  }
+  .card:hover {
+    box-shadow: 0 0 8px rgba(0,0,0,.18), 0 8px 16px rgba(0,0,0,.36);
+  }
+}
+
 @-webkit-keyframes scale-in {
   0% {
     -webkit-transform: scale(1.2);
@@ -109,3 +126,6 @@ body {
     transform: scale(1);
   }
 }
+
+
+
